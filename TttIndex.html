@@ -1,0 +1,39 @@
+<html>
+<head>
+<script type="text/javascript" src="WebContent/tictactoe.js"></script>
+<script type="text/javascript">
+function onLoad()
+{
+    var obj=new TicTacToe("my_div");
+}
+</script>
+</head>
+<body onload="onLoad();">
+<div id="my_div" style="min-width:300px;min-height:300px;>
+
+<h4 class="floatright">
+    <h4 id="TEXT"></h4>
+<h2><br>&nbsp &nbsp TIC-TAC-TOE. Refresh to play a new game</h2>
+<div> <button></button> <button></button> <button></button> </div>
+
+<div> <button></button> <button></button> <button></button> </div>
+
+<div> <button></button> <button></button> <button></button> </div>
+<h1 class="floatright">
+    <h1 id="TEXT"></h1>
+</body>
+</html>
+<style>
+#my_div button {
+  background:green;
+  display: inline;
+  float:left;
+  width: 100px;
+  height: 100px;
+  margin: 20px 30px;
+  }
+#my_div div {
+  clear: both;
+}  
+</style>
+
